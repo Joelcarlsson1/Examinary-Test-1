@@ -14,6 +14,7 @@ public class colorChanger : MonoBehaviour
     float red;
     float blue;
     float green;
+    
     // Use this for initialization
     void Start()
     {
@@ -73,7 +74,7 @@ public class colorChanger : MonoBehaviour
             green = Random.Range(0f, 1f);
             blue = Random.Range(0f, 1f);
         }
-
+        
 
 
 
